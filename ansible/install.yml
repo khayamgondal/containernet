@@ -48,7 +48,7 @@
      args:
        chdir: ../
 
-   - name: download 'ubuntu' docker image for Containernet example
-     shell: docker pull ubuntu:trusty
-     tags:
-        - notindocker
+   #- name: downloading docker image with iperf installed
+   #  shell: docker pull khayamgondal/sosagent:v2
+   #  tags:
+   #     - notindocker
