@@ -49,6 +49,6 @@
        chdir: ../
 
    #- name: downloading docker image with iperf installed
-   #  shell: docker pull khayamgondal/sosagent:v2
+     shell: docker pull khayamgondal/sosagent:v4
    #  tags:
    #     - notindocker
